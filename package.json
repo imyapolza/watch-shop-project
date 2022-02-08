@@ -1,7 +1,6 @@
 {
   "name": "react-clock",
   "version": "0.1.0",
-  "homepage": "https://imyapolza.github.io/project/",
   "private": true,
   "dependencies": {
     "@babel/core": "7.12.3",
