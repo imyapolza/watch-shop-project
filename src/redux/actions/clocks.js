@@ -9,9 +9,9 @@ export const fetchClocks = (category, sortBy) => (dispatch) => {
   dispatch(setLoaded(false));
   axios
     .get(
-      `/clocks?${category != null ? `category=${category}` : ``}&_sort=${sortBy.type}&_order=${
-        sortBy.order
-      }`,
+      `http://localhost:3001/clocks?${category != null ? `category=${category}` : ``}&_sort=${
+        sortBy.type
+      }&_order=${sortBy.order}`,
     )
     .then(({ data }) => {
       dispatch(setClocks(data));
