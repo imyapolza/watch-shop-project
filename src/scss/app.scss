@@ -617,8 +617,33 @@ body {
 }
 
 @media (max-width: 768px) {
-  .cart__item-info h3 {
-    font-size: 19px;
+  .cart__item {
+    &-info {
+      margin-left: 130px;
+    }
+
+    &-count {
+      margin-left: 192px;
+    }
+
+    &-price {
+      margin-left: 172px;
+    }
+
+    &-remove .button {
+      margin-right: -263px;
+    }
+
+    &-info h3 {
+      font-size: 19px;
+      margin-left: 41px;
+    }
+
+    &-img img {
+      width: 300px;
+      height: 280px;
+      margin-left: 197px;
+    }
   }
 
   .categories {
