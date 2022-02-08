@@ -531,15 +531,57 @@ body {
     padding: 0;
   }
 
+  .button i,
+  .button path,
+  .button span,
+  .button svg {
+    width: 279px;
+    height: 39px;
+  }
+
+  .button-outline {
+    border-width: 3px;
+  }
+
   .cart__item {
-    &-count b {
+    flex-direction: column;
+
+    &-img img {
+      width: 300px;
+      margin-left: 250px;
+    }
+
+    &-price b {
       font-size: 22px;
+      margin-left: 20px;
+      margin-top: 30px;
+    }
+
+    &-count {
+      margin-left: 246px;
+      margin-top: 40px;
+      width: 150px;
+    }
+
+    &-count b {
+      font-size: 35px;
       margin-left: 10px;
       margin-right: 10px;
     }
 
-    &-info h3 {
-      font-size: 22px;
+    &-info {
+      & h3 {
+        font-size: 27px;
+        margin-top: 30px;
+        margin-left: 176px;
+        width: 300px;
+      }
+
+      & p {
+        margin-top: 15px;
+        width: 100px;
+        margin-left: 275px;
+      }
     }
   }
 
