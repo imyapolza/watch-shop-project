@@ -538,9 +538,19 @@ body {
   .cart__item {
     flex-direction: column;
 
+    &-remove .button {
+      margin-right: -304px;
+      margin-top: 18px;
+    }
+
     &-img img {
       width: 300px;
+      height: 280px;
       margin-left: 250px;
+    }
+
+    &-price {
+      margin-left: 209px;
     }
 
     &-price b {
@@ -562,17 +572,20 @@ body {
     }
 
     &-info {
+      width: 320px;
+      margin-left: 182px;
+
       & h3 {
         font-size: 27px;
         margin-top: 30px;
-        margin-left: 176px;
         width: 300px;
       }
 
       & p {
         margin-top: 15px;
         width: 100px;
-        margin-left: 275px;
+        margin-left: 89px;
+        font-size: 20px;
       }
     }
   }
