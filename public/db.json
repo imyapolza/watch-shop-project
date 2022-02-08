@@ -16,7 +16,7 @@
       "name": "Citizen BM7108-22L",
       "types": [0],
       "sizes": [1, 3],
-      "price": 245,
+      "price": 24500,
       "category": 1,
       "rating": 6
     },
@@ -26,7 +26,7 @@
       "name": "Citizen EW2500-88A",
       "types": [0],
       "sizes": [26, 3],
-      "price": 295,
+      "price": 29000,
       "category": 1,
       "rating": 4
     },
@@ -36,7 +36,7 @@
       "name": "Casio G-SHOCK GA-2200BB-1AER",
       "types": [1],
       "sizes": [26, 2, 3],
-      "price": 275,
+      "price": 18000,
       "category": 2,
       "rating": 2
     },
@@ -46,7 +46,7 @@
       "name": "Anne Klein 1362GNGB",
       "types": [0, 1],
       "sizes": [26, 2, 3],
-      "price": 415,
+      "price": 21500,
       "category": 3,
       "rating": 8
     },
@@ -56,7 +56,7 @@
       "name": "Casio G-SHOCK GM-6900G-9ER",
       "types": [0],
       "sizes": [2, 3],
-      "price": 580,
+      "price": 31200,
       "category": 2,
       "rating": 2
     },
@@ -66,7 +66,7 @@
       "name": "Citizen CA314-57E",
       "types": [0, 1],
       "sizes": [26, 2, 3],
-      "price": 675,
+      "price": 16000,
       "category": 1,
       "rating": 9
     },
@@ -76,7 +76,7 @@
       "name": "Candino C4625_1",
       "types": [0, 1],
       "sizes": [26, 2, 3],
-      "price": 450,
+      "price": 21000,
       "category": 4,
       "rating": 10
     },
@@ -86,7 +86,7 @@
       "name": "Continental 20507-GM101120",
       "types": [0, 1],
       "sizes": [26, 2, 3],
-      "price": 395,
+      "price": 24500,
       "category": 5,
       "rating": 10
     },
@@ -96,7 +96,7 @@
       "name": "Continental 20501-GD101950",
       "types": [0, 1],
       "sizes": [26, 2, 3],
-      "price": 285,
+      "price": 23000,
       "category": 5,
       "rating": 7
     }
