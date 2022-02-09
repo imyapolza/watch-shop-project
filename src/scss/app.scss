@@ -742,11 +742,17 @@ body {
     margin-left: -28px;
 
     &-info h3 {
-      font-size: 17px;
+      font-size: 20px;
     }
 
     &-price b {
       font-size: 17px;
+    }
+  }
+
+  .cart {
+    &__bottom-details {
+      flex-direction: column;
     }
   }
 
